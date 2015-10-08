@@ -10,6 +10,7 @@ html {
   font-family: arial, helvetica;
   background-color: #7BAAC2;
 
+
 }
 
 h1 {
@@ -45,6 +46,48 @@ button:hover {
 }
 
 
+/**OVERLAY**/
+
+.overlay {
+	width: 95%;
+	height: 95%;
+	color: #fff;
+	background: #ffb39d;
+	position: absolute;
+	top: 18px;
+	left: 31px;
+	margin: 0 auto;
+	z-index: 1000;
+	display: none;
+  border-radius: 5px;
+  opacity: 0.98;
+}
+
+
+.questiontext {
+  background-color: inherit;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 25px;
+}
+
+.buttonposition {
+  background-color: #ffb39d;
+}
+
+.xbutton {
+  text-align: center;
+  background-color: #FBD777;
+
+}
+
+.xbutton:hover {
+  background-color: #D5AF49;
+}
+
+
+/**basic styles**/
+
 #title {
   padding: 0 25px;
   text-align: center;
@@ -77,4 +120,33 @@ button:hover {
   border: 1px solid #336A87;
   display:inline-block;
   border-radius: 5px;
+}
+
+/**QUESTIONS************************/
+
+#ques2,
+#ques3,
+#ques4,
+#ques5 {
+  display:none;
+}
+
+#set2,
+#set3,
+#set4,
+#set5 {
+  display: none;
+}
+
+
+/**box colors****************/
+
+.right {
+  background-color: green;
+
+}
+
+.wrong {
+  background-color: red;
+
 }
